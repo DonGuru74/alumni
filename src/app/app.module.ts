@@ -12,6 +12,8 @@ import { CardComponent } from './card/card.component';
 import { AluDirectoryComponent } from './alu-directory/alu-directory.component';
 import { CareerComponent } from './career/career.component';
 import { StoriesComponent } from './stories/stories.component';
+import { EventReaderComponent } from './event-reader/event-reader.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { StoriesComponent } from './stories/stories.component';
     CardComponent,
     AluDirectoryComponent,
     CareerComponent,
-    StoriesComponent
+    StoriesComponent,
+    EventReaderComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
