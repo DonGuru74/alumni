@@ -5,7 +5,8 @@ import { AluDirectoryComponent } from './alu-directory/alu-directory.component';
 import { CareerComponent } from './career/career.component';
 import { NewsComponent } from './news/news.component';
 import { StoriesComponent } from './stories/stories.component';
-import { EventsComponent } from './events/events.component';
+import { EnventsDetailsComponent } from './envents-details/envents-details.component';
+import { CardComponent } from './card/card.component';
 
 const routes: Routes = [
   {
@@ -22,8 +23,8 @@ const routes: Routes = [
     component: CareerComponent
   },
   {
-    path: 'events',
-    component: EventsComponent
+    path: 'events-details',
+    component: EnventsDetailsComponent
   },
   {
     path: 'news',
@@ -32,6 +33,10 @@ const routes: Routes = [
   {
     path: 'stories',
     component: StoriesComponent
+  },
+  {
+    path: 'card/:id',
+    component: CardComponent
   },
   {
     path: '',
