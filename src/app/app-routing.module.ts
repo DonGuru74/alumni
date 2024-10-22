@@ -6,6 +6,7 @@ import { CareerComponent } from './career/career.component';
 import { NewsComponent } from './news/news.component';
 import { StoriesComponent } from './stories/stories.component';
 import { EnventsDetailsComponent } from './envents-details/envents-details.component';
+import { CardComponent } from './card/card.component';
 
 const routes: Routes = [
   {
@@ -32,6 +33,10 @@ const routes: Routes = [
   {
     path: 'stories',
     component: StoriesComponent
+  },
+  {
+    path: 'card/:id',
+    component: CardComponent
   },
   {
     path: '',
