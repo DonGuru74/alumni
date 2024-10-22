@@ -1,9 +1,14 @@
 <body>
+
+<h1 class=" text-center py-5"> Graduated Alumni</h1>
+
+
+
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
 <div *ngFor="let alumniCard of alumni; let i = index"> 
-<div class="card my-4 px-2 mx-auto text-center py-3 rounded-circle rounded-5 shadow-lg text-light bg-dark" style="width: 18rem;" id="cardImg">
-    <img [src]="alumniCard.image" class="card-img-top">
-    <br>
+<div class="card my-4 mb-4 px-2 mx-auto text-center py-3 border-0   rounded-pill shadow-lg text-light bg-dark bg-opacity-75" style="width: 18rem;" id="cardImg">
+    <a routerLink="/card/{{i}}"><img [src]="alumniCard.image" class="card-img-top"></a>
+    
     <br>
     <div class="card-body">
       <strong><h5 class="card-title">{{alumniCard.name}}</h5></strong>
@@ -11,7 +16,8 @@
       <br>
       <h5 class="card-title">{{alumniCard.qualification}}</h5>
       <br>
-      <a routerLink="/card/{{i}}" class="btn btn-primary">more...</a>
+      <br>
+      <!-- <a routerLink="/card/{{i}}" class="btn btn-info px-2" id="btnMore">more...</a> -->
     </div>
   </div>
   </div>
