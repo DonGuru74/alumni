@@ -1,8 +1,7 @@
 @font-face {
-    font-family: 'Verco';
+    font-family: 'Menante';
    
-   src: url('/font/verco-demo.otf')  format('opentype'); 
-   
+   src: url('/font/menante-regular.otf') format('opentype')
 } 
 
 
@@ -22,7 +21,7 @@
  } 
 
  h1{
-        font-family: 'Agilera';
+        font-family: 'Menante';
         font-size: 50px;
         font-weight: 800;
         -webkit-text-stroke: 0.5px rgb(34, 89, 217);
