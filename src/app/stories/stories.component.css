@@ -1,0 +1,39 @@
+.stories-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  .stories-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .story-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .story-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .story-content {
+    margin-top: 10px;
+  }
+  
+  footer {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
