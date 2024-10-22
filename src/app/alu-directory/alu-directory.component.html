@@ -1,1 +1,16 @@
-<p>alu-directory works!</p>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+<div *ngFor="let alumniCard of alumni; let i = index">
+    
+<div class="card my-4 mx-auto text-center py-3  shadow-lg animate__animated animate__fadeInRight" style="width: 18rem;" id="cardImg">
+    <img [src]="alumniCard.image" class="card-img-top">
+    <div class="card-body">
+      <strong><h5 class="card-title">{{alumniCard.name}}</h5></strong>
+      <strong><p class="card-text">{{alumniCard.age}}</p></strong>
+      <br>
+      <h5 class="card-title">{{alumniCard.qualification}}</h5>
+      <br>
+      <a href="#" class="btn btn-primary">more...</a>
+    </div>
+  </div>
+  </div>
+</div>
