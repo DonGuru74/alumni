@@ -1,6 +1,16 @@
+@font-face {
+    font-family: 'Verco';
+   
+   src: url('/font/verco-demo.otf')  format('opentype'); 
+   
+} 
+
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
 
  img{
@@ -11,9 +21,22 @@
     border: none;
  } 
 
-/* .card{
-    height: 40rem;
-} */
+ h1{
+        font-family: 'Agilera';
+        font-size: 50px;
+        font-weight: 800;
+        -webkit-text-stroke: 0.5px rgb(34, 89, 217);
+        color: rgb(39, 39, 114);
+        text-shadow:    0px 0px 10px rgb(166, 76, 227),
+                            0px 0px 20px rgb(105, 44, 197),
+                            0px 0px 40px rgb(132, 49, 191),
+                            0px 0px 80px rgb(148, 71, 195);
+
+
+   
+ }
+
+
 
 a :hover{
     box-shadow: 
@@ -23,9 +46,14 @@ a :hover{
     0px 0px 80px rgb(216, 81, 216);
     transition: 1s;
 }
-/* 
-#btnMore{
+
+
+body{
+    background: rgb(5,0,13);
+    background: linear-gradient(180deg, rgba(5,0,13,1) 1%, rgba(10,1,28,1) 26%, rgba(26,6,58,1) 50%);
     
-} */
+}
 
-
+h5, p{
+     -webkit-text-stroke: 0.6px blue;
+}
