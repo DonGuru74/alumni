@@ -3,4 +3,16 @@
     padding: 0;
 }
 
-  
+ img{
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 50%;
+    outline: 10px  solid blueviolet;
+ } 
+
+/* .card{
+    height: 40rem;
+} */
+
+
+img
