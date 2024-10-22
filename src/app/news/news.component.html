@@ -1,14 +1,43 @@
 <div class="news-container">
   <h2>Latest News</h2>
-  <div class="news-item" *ngFor="let news of newsList">
-    <div class="news-content">
-      <h3>{{ news.title }}</h3>
-      <p>{{ news.excerpt }}</p>
+  <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div
+        class="carousel-item"
+        *ngFor="let news of newsList; let i = index"
+        [class.active]="i === 0"
+      >
+        <div class="news-item">
+          <div class="news-content">
+            <h3>{{ news.title }}</h3>
+            <p>{{ news.excerpt }}</p>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+            <small>{{ news.date }}</small>
+            <a href="{{ news.link }}" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="d-flex justify-content-between">
-      <p>test</p>
-      <small>{{ news.date }}</small>
-      <a href="{{ news.link }}" class="btn btn-primary">Read More</a>
-    </div>
+
+    <!-- Carousel Controls -->
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#newsCarousel"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#newsCarousel"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 </div>
