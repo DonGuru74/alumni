@@ -1,1 +1,23 @@
-<p>stories works!</p>
+<div class="stories-page">
+  <header>
+    <h1>Alumni Success Stories</h1>
+    <p>
+      Discover the inspiring journeys of our successful alumni and their
+      achievements in various fields.
+    </p>
+  </header>
+
+  <div class="stories-list">
+    <div *ngFor="let story of stories" class="story-item">
+      <img [src]="story.image" alt="{{ story.title }}" class="story-image" />
+      <div class="story-content">
+        <h2>{{ story.title }}</h2>
+        <p>{{ story.description }}</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Contact us for more success stories: alumni&#64;example.com</p>
+  </footer>
+</div>
