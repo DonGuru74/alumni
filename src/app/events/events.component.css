@@ -1,0 +1,18 @@
+.events-container {
+  padding: 20px;
+}
+
+.event {
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 5px 0;
+}

@@ -1,1 +1,8 @@
-<p>events works!</p>
+<div class="events-container">
+  <h2>Upcoming Events</h2>
+  <div class="event" *ngFor="let event of events">
+    <h3>{{ event.title }}</h3>
+    <p>{{ event.date | date }}</p>
+    <p>{{ event.description }}</p>
+  </div>
+</div>
