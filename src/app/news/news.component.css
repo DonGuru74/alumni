@@ -1,45 +1,52 @@
 .news-container {
   max-width: 400px;
-  padding: 15px;
+  padding: 20px;
   background-color: #f8f9fa;
   border-radius: 10px;
   margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .news-item {
-  margin-bottom: 15px;
-  padding: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: white;
 }
 
-/* .news-item h3 {
-  font-size: 1.2rem;
+.news-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.news-item h3 {
+  margin: 0;
+  font-size: 1.5rem;
   color: #333;
-} */
+  font-weight: 700;
+}
 
-/* .news-item p {
-  font-size: 0.9rem;
-  color: #666;
-} */
+.news-item p {
+  margin: 8px 0;
+  color: #555;
+  font-size: 1rem;
+}
 
+/* Button styling */
 .news-item a {
-  margin-top: 8px;
   display: inline-block;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.3s, color 0.3s;
 }
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: transparent;
-  background-size: 100%, 100%;
-  width: 25px;
-  height: 25px;
-}
-
-.carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 16 16'%3E%3Cpath d='M11.354 1.354a.5.5 0 0 1 0 .707L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.707l6-6a.5.5 0 0 1 .708 0z'/%3E%3C/svg%3E"); /* Black arrow for previous */
-}
-
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 16 16'%3E%3Cpath d='M4.646 1.354a.5.5 0 0 0 0 .707L10.293 8l-5.647 5.646a.5.5 0 0 0 .708.708l6-6a.5.5 0 0 0 0-.707l-6-6a.5.5 0 0 0-.708 0z'/%3E%3C/svg%3E"); /* Black arrow for next */
+.news-item a:hover {
+  background-color: #0056b3;
+  color: white;
 }
