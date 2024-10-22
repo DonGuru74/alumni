@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,7 +14,6 @@ import { CardComponent } from './card/card.component';
 import { AluDirectoryComponent } from './alu-directory/alu-directory.component';
 import { CareerComponent } from './career/career.component';
 import { StoriesComponent } from './stories/stories.component';
-import { FormsModule } from '@angular/forms';
 import { EventReaderComponent } from './event-reader/event-reader.component';
 import { HomeComponent } from './home/home.component';
 import { EventsDetailsComponent } from './events-details/events-details.component';
