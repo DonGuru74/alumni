@@ -1,0 +1,7 @@
+img{
+    width: 30rem;
+    height: auto;
+    outline: 3px dotted rgb(109, 38, 191);
+    outline-offset: 10px;
+    border: solid 10px rgb(225, 163, 244);
+}

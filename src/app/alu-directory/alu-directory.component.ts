@@ -10,16 +10,5 @@ import { alumni } from '../shared/alumni';
 })
 export class AluDirectoryComponent {
   alumni : IAlumni [] = alumni
-  // prodCart: productsModel []
-  // article: number = 0;
-
-  // constructor ( 
-  //   // private router : ActivatedRoute, 
-  //   private cartSer : CartService
-  // ){
-  //   let id =  parseInt('id');
-    
-  //   // this.prodCart = products[id]
- 
-  // }
+  
 }
