@@ -14,14 +14,26 @@
   }
   
   header h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
     color: #0056b3;
+    /* modified heading */
+    -webkit-text-stroke: 1.5px rgb(188, 88, 215);
+    text-shadow: 0px 0px 10px rgb(137, 21, 175), 0px 0px 20px rgb(112, 25, 159),
+      0px 0px 40px rgb(113, 32, 205), 0px 0px 80px rgb(133, 29, 177);
   }
   
   header p {
     font-size: 1.2rem;
     color: #666;
+  }
+
+  /* modified header */
+  #sub-heading {
+      font-family: 'Menante';
+      font-size: 1.3rem;
+      color: rgb(130, 127, 213);
+      -webkit-text-stroke: 1.5px rgba(151, 16, 208, 0.878);
   }
   
   /* Search bar styling */
@@ -85,6 +97,7 @@
     font-weight: 600;
     color: #0056b3;
   }
+
   
   /* Footer styling */
   footer {

@@ -12,6 +12,7 @@ img {
   top: 0;
   right: 0;
   height: auto;
+  animation-duration: 1.5s;
 }
 
 div {
@@ -27,6 +28,10 @@ p {
   top: 50px;
   left: 5%;
   margin: 10px;
+  font-family: 'Menante';
+  -webkit-text-stroke: 0.5px rgb(119, 231, 184);
+  animation-delay: 2s;
+  
   /* font-size: 50px; */
   font-size: 5vw; /* es ist so besser wenn ich
                   den Brwoser verkleinern bzw. vergrößern */
@@ -43,11 +48,13 @@ p {
 span {
   background-color: rgb(73, 75, 73);
   width: 100px;
+
   /* border: 2px solid red; */
 }
 
 #you {
   background-color: rgb(37, 133, 79) !important;
+ 
 }
 
 @media (max-width: 600px) {

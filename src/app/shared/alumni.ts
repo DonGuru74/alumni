@@ -28,7 +28,7 @@ export const alumni : IAlumni [] = [
 
 },
 {
-    name:'Sthephen Hops',
+    name:'Stephen Hops',
     age: 25,
     image:'/img/man4.jpg',
     qualification: 'Front-end Developer' ,
@@ -44,7 +44,7 @@ export const alumni : IAlumni [] = [
 
 },
 {
-    name:'Samatha Greens',
+    name:'Samantha Greens',
     age: 30,
     image:'/img/woman5.jpg',
     qualification: 'Jascript Developer' ,

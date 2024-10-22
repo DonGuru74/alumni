@@ -6,6 +6,8 @@
   margin: 0 auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: rgba(0, 0, 0, 0.1) !important;
+  animation-duration: 1.3s;
+  animation-delay: 3.5s;
 }
 
 .news-item {
@@ -50,4 +52,11 @@
 .news-item a:hover {
   background-color: #0056b3;
   color: white;
+}
+
+/* modified heading */
+h2{
+  font-family: 'Menante';
+  font-size: 1.5rem;
+  -webkit-text-stroke: 1px rgb(79, 152, 211);
 }
