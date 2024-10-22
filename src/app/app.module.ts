@@ -15,6 +15,7 @@ import { StoriesComponent } from './stories/stories.component';
 import { FormsModule } from '@angular/forms';
 import { EventReaderComponent } from './event-reader/event-reader.component';
 import { HomeComponent } from './home/home.component';
+import { EnventsDetailsComponent } from './envents-details/envents-details.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { HomeComponent } from './home/home.component';
     CareerComponent,
     StoriesComponent,
     EventReaderComponent,
-    HomeComponent
+    HomeComponent,
+    EnventsDetailsComponent
   ],
   imports: [
     BrowserModule,
