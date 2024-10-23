@@ -14,7 +14,6 @@ const routes: Routes = [
     path: 'home',
     component: HomeComponent,
   },
-
   {
     path: 'alu-directory',
     component: AluDirectoryComponent,
@@ -40,10 +39,6 @@ const routes: Routes = [
     component: CardComponent,
   },
   {
-    path: 'news-details',
-    component: NewsDetailsComponent,
-  },
-  {
     path: '',
     redirectTo: '/home',
     pathMatch: 'full',
@@ -52,6 +47,8 @@ const routes: Routes = [
     path: '**',
     redirectTo: '/home',
   },
+  { path: '', component: NewsComponent },
+  { path: 'news-details', component: NewsDetailsComponent },
 ];
 
 @NgModule({
