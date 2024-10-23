@@ -2,3 +2,9 @@
   background-color: rgba(0, 0, 0, 0.21) !important;
 }
 
+#logo:hover{
+  box-shadow: 0px 0px 10px rgb(40, 157, 181), 0px 0px 20px rgb(112, 21, 160),
+  0px 0px 40px rgb(151, 67, 207), 0px 0px 80px rgb(33, 57, 217);
+transition: 1s;
+
+}

@@ -1,23 +1,23 @@
 <div class="career-page">
   <header>
-    <h1>Career Opportunities</h1>
-    <p id="sub-heading">Join our amazing team and start your journey with us.</p>
+    <h1 class="animate__animated animate__pulse">Career Opportunities</h1>
+    <p id="sub-heading" class="animate__animated animate__pulse">Join our amazing team and start your journey with us.</p>
   </header>
 
-  <div class="search-bar">
+  <div class="search-bar animate__animated animate__slideInDown " id="searchBar">
     <input
-      type="text"
+      type="text" class=" bg-info bg-gradient bg-opacity-10"
       [(ngModel)]="searchTerm"
       placeholder="Search for jobs..."
       (input)="filterJobs()"
     />
   </div>
 
-  <div class="job-list">
-    <div *ngFor="let job of jobs" class="job-item">
-      <h2>{{ job.title }}</h2>
-      <p>{{ job.description }}</p>
-      <p><strong>Location:</strong> {{ job.location }}</p>
+  <div class="job-list animate__animated animate__zoomIn">
+    <div *ngFor="let job of jobs" class="job-item text-center bg-info bg-gradient bg-opacity-10">
+      <h2 >{{ job.title }}</h2>
+      <p class="text-light">{{ job.description }}</p>
+      <p class="text-light"><strong>Location:</strong> {{ job.location }}</p>
     </div>
   </div>
 
