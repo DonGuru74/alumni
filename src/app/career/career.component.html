@@ -1,7 +1,7 @@
 <div class="career-page">
   <header>
     <h1>Career Opportunities</h1>
-    <p id="sub-heading">Join our amazing team and start your journey with us.</p>
+    <p>Join our amazing team and start your journey with us.</p>
   </header>
 
   <div class="search-bar">
@@ -14,7 +14,7 @@
   </div>
 
   <div class="job-list">
-    <div *ngFor="let job of jobs" class="job-item">
+    <div *ngFor="let job of filteredJobs" class="job-item">
       <h2>{{ job.title }}</h2>
       <p>{{ job.description }}</p>
       <p><strong>Location:</strong> {{ job.location }}</p>
