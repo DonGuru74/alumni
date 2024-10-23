@@ -36,7 +36,7 @@ export const alumni : IAlumni [] = [
 
 },
 {
-    name:'Mohamed Al Hamzi',
+    name:'Mohamed Akel',
     age: 27,
     image:'/img/man0.jpg',
     qualification: 'Back-end Developer' ,

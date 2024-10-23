@@ -55,3 +55,7 @@
       -webkit-text-stroke: 1.5px rgb(121, 38, 157);
       animation-duration: 2.3s;
     }
+
+    #pFooter {
+      -webkit-text-stroke: 1px rgb(200, 111, 241);
+    }
