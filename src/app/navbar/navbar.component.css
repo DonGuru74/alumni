@@ -8,3 +8,13 @@
 transition: 1s;
 
 }
+
+.nav-item :hover{
+  text-shadow: 0px 0px 10px rgb(105, 157, 209), 0px 0px 20px rgb(79, 174, 197),
+  0px 0px 40px rgb(114, 198, 214), 0px 0px 80px rgb(104, 158, 212);
+}
+
+#btnSign:hover{
+  box-shadow: 0px 0px 10px rgb(138, 88, 217), 0px 0px 20px rgb(199, 102, 221),
+  0px 0px 40px rgb(123, 79, 213), 0px 0px 80px rgb(156, 64, 184);
+}
