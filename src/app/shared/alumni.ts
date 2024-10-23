@@ -44,7 +44,7 @@ export const alumni : IAlumni [] = [
 
 },
 {
-    name:'Samantha Greens',
+    name:'Claire Greens',
     age: 30,
     image:'/img/woman5.jpg',
     qualification: 'Jascript Developer' ,
