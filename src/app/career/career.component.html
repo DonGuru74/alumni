@@ -13,6 +13,11 @@
     />
   </div>
 
+  <div class="job-list">
+    <div *ngFor="let job of filteredJobs" class="job-item">
+      <h2>{{ job.title }}</h2>
+      <p>{{ job.description }}</p>
+      <p><strong>Location:</strong> {{ job.location }}</p>
   <div class="job-list animate__animated animate__zoomIn">
     <div *ngFor="let job of jobs" class="job-item text-center bg-info bg-gradient bg-opacity-10">
       <h2 >{{ job.title }}</h2>
