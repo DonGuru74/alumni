@@ -21,7 +21,7 @@ export class NewsComponent {
       link: '#',
     },
     {
-      title: 'New Events Coming Up',
+      title: 'New Events Coming Up During The Next Weeks',
       excerpt:
         'Stay tuned for exciting events coming up in the next few weeks...',
       date: 'December 5, 2024',
