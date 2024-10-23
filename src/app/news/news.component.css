@@ -55,8 +55,16 @@
 }
 
 /* modified heading */
-h2{
-  font-family: 'Menante';
+h2 {
+  font-family: "Menante";
   font-size: 1.5rem;
   -webkit-text-stroke: 1px rgb(79, 152, 211);
+}
+
+.carousel-control-prev {
+  left: -50px;
+}
+
+.carousel-control-next {
+  right: -50px;
 }

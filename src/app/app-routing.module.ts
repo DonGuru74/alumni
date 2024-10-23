@@ -7,50 +7,55 @@ import { NewsComponent } from './news/news.component';
 import { StoriesComponent } from './stories/stories.component';
 import { EventsDetailsComponent } from './events-details/events-details.component';
 import { CardComponent } from './card/card.component';
+import { NewsDetailsComponent } from './news-details/news-details.component';
 
 const routes: Routes = [
   {
     path: 'home',
-    component: HomeComponent
+    component: HomeComponent,
   },
-  
+
   {
     path: 'alu-directory',
-    component: AluDirectoryComponent
+    component: AluDirectoryComponent,
   },
   {
     path: 'career',
-    component: CareerComponent
+    component: CareerComponent,
   },
   {
     path: 'events-details',
-    component: EventsDetailsComponent
+    component: EventsDetailsComponent,
   },
   {
     path: 'news',
-    component: NewsComponent
+    component: NewsComponent,
   },
   {
     path: 'stories',
-    component: StoriesComponent
+    component: StoriesComponent,
   },
   {
     path: 'card/:id',
-    component: CardComponent
+    component: CardComponent,
+  },
+  {
+    path: 'news-details',
+    component: NewsDetailsComponent,
   },
   {
     path: '',
     redirectTo: '/home',
-    pathMatch: 'full' 
+    pathMatch: 'full',
   },
   {
     path: '**',
-    redirectTo: '/home'
-  }
+    redirectTo: '/home',
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

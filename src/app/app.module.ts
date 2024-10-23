@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -17,6 +16,7 @@ import { StoriesComponent } from './stories/stories.component';
 import { EventReaderComponent } from './event-reader/event-reader.component';
 import { HomeComponent } from './home/home.component';
 import { EventsDetailsComponent } from './events-details/events-details.component';
+import { NewsDetailsComponent } from './news-details/news-details.component';
 
 @NgModule({
   declarations: [
@@ -32,14 +32,11 @@ import { EventsDetailsComponent } from './events-details/events-details.componen
     StoriesComponent,
     EventReaderComponent,
     HomeComponent,
-    EventsDetailsComponent
+    EventsDetailsComponent,
+    NewsDetailsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
