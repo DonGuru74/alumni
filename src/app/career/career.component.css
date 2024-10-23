@@ -14,14 +14,31 @@ header {
 }
 
 header h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
   color: #0056b3;
+      /* modified heading */
+      -webkit-text-stroke: 1.5px rgb(188, 88, 215);
+      text-shadow: 0px 0px 10px rgb(137, 21, 175), 0px 0px 20px rgb(112, 25, 159),
+        0px 0px 40px rgb(113, 32, 205), 0px 0px 80px rgb(133, 29, 177);
+        animation-duration: 2s;
+  
 }
 
 header p {
   font-size: 1.2rem;
-  color: #666;
+  color: #bc95da;
+  animation-delay: 1s;
+  animation-duration: 1.5s;
+  -webkit-text-stroke: 1px #c6cdd5;
+}
+
+/* modified header */
+#sub-heading {
+  font-family: 'Menante';
+  font-size: 1.3rem;
+  color: rgb(130, 127, 213);
+  -webkit-text-stroke: 1.5px rgba(151, 16, 208, 0.878);
 }
 
 /* Search bar styling */
@@ -40,7 +57,7 @@ header p {
   font-size: 1rem;
   outline: none;
   color: #333;  /* Explicitly set the text color to dark */
-  background-color: #fff;  /* Set background color to white */
+  background-color: #438cd548;  /* Set background color to white */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.2s ease;
 }
@@ -60,6 +77,9 @@ header p {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   justify-items: center;
+  animation-delay: 1.5s;
+  animation-duration: 2s;
+
 }
 
 .job-item {
@@ -78,20 +98,25 @@ header p {
 
 .job-item h2 {
   font-size: 1.5rem;
-  color: #333;
+  color: #6093b8;
   margin-bottom: 10px;
   text-transform: capitalize;
+  font-family: 'Menante';
+  -webkit-text-stroke:  1.5px #481a5d;
+
 }
 
 .job-item p {
   font-size: 1rem;
   color: #555;
   line-height: 1.6;
+
 }
 
 .job-item p strong {
   font-weight: 600;
-  color: #0056b3;
+  color: #5c3dae;
+
 }
 
 /* Footer styling */
@@ -105,4 +130,6 @@ footer {
 footer p {
   font-size: 1rem;
   color: #777;
+  -webkit-text-stroke: 1px rgb(200, 111, 241);
+
 }
