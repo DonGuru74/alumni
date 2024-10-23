@@ -7,8 +7,8 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
   background-color: rgba(0, 0, 0, 0.1) !important;
-  animation-duration: 2s;
-  animation-delay: 2.5s;
+  animation-duration: 1.2s;
+  animation-delay: 1.5s;
 }
 
 .event {
@@ -28,14 +28,20 @@
 h3 {
   margin: 0;
   font-size: 1.5rem;
-  color: #333;
+  color: #c3d2d5;
   font-weight: 700;
+  -webkit-text-stroke: 1px #a17cbf;
+
 }
 
 p {
   margin: 8px 0;
-  color: #555;
+  color: #eaeff6;
   font-size: 1rem;
+}
+
+#date{
+  -webkit-text-stroke: 0.5px #0056b3;
 }
 
 /* Button styling */

@@ -77,8 +77,8 @@ header p {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   justify-items: center;
-  animation-delay: 1.5s;
-  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-duration: 1.2s;
 
 }
 

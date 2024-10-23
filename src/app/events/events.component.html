@@ -1,10 +1,10 @@
 <div class="events-container animate__animated animate__fadeInLeft">
   <h2>Upcoming Events <img src="/img/people.png" height="80px" alt="" /></h2>
 
-  <div class="event" *ngFor="let event of events">
+  <div class="event bg-info  bg-gradient bg-opacity-50" *ngFor="let event of events">
     <h3>{{ event.title }}</h3>
-    <p>{{ event.date | date }}</p>
+    <p id="date">{{ event.date | date }}</p>
     <p>{{ event.description }}</p>
-    <a routerLink="/events-details" class="btn btn-primary">Read More</a>
+    <a routerLink="/events-details" class="btn btn-primary  bg-gradient opacity-50 border-light">Read More</a>
   </div>
 </div>

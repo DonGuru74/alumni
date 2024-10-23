@@ -12,6 +12,18 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+h1{
+  font-family: 'Menante';
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: rgb(181, 231, 231);
+  -webkit-text-stroke: 1.5px rgb(188, 88, 215);
+  text-shadow: 0px 0px 10px rgb(125, 68, 189), 0px 0px 20px rgb(102, 17, 148),
+    0px 0px 40px rgb(133, 53, 190), 0px 0px 80px rgb(127, 29, 184);
+    text-decoration: underline;
+}
+
 h2 {
   font-family: 'Menante';
   font-size: 2.5rem;

@@ -19,12 +19,12 @@ h3 {
   font-family: "Menante";
   font-size: 1.5rem;
   -webkit-text-stroke: 1px rgb(32, 8, 61);
-  animation-delay: 1s;
+  animation-delay: 0.5s;
   animation-duration: 1s;
 }
 
 p{
-  animation-delay: 1.5s;
-  animation-duration: 1.5s;
+  animation-delay: 1s;
+  animation-duration: 1s;
 }
 

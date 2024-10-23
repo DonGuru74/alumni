@@ -1,13 +1,13 @@
 .news-container {
   max-width: 400px;
   padding: 20px;
-  background-color: #f8f9fa;
+  background-color: #82add7bf;
   border-radius: 10px;
   margin: 0 auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: rgba(0, 0, 0, 0.1) !important;
-  animation-duration: 1.3s;
-  animation-delay: 2s;
+  animation-duration: 1.2s;
+  animation-delay: 1s;
 }
 
 .news-item {
@@ -27,14 +27,19 @@
 .news-item h3 {
   margin: 0;
   font-size: 1.5rem;
-  color: #333;
+  color: #c3d2d5;
   font-weight: 700;
+  -webkit-text-stroke: 1px #a17cbf;
 }
 
 .news-item p {
   margin: 8px 0;
-  color: #555;
+  color: #eaeff6;
   font-size: 1rem;
+}
+
+#date{
+  -webkit-text-stroke: 0.5px #1e75cb;
 }
 
 /* Button styling */
