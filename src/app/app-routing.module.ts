@@ -30,6 +30,7 @@ const routes: Routes = [
     path: 'news',
     component: NewsComponent,
   },
+  { path: 'news-details', component: NewsDetailsComponent },
   {
     path: 'stories',
     component: StoriesComponent,
@@ -47,8 +48,6 @@ const routes: Routes = [
     path: '**',
     redirectTo: '/home',
   },
-  { path: '', component: NewsComponent },
-  { path: 'news-details', component: NewsDetailsComponent },
 ];
 
 @NgModule({
