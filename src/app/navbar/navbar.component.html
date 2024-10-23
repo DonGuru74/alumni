@@ -1,9 +1,17 @@
 <nav
-  class="navbar sticky-top navbar-expand-lg bg-body-tertiary"
+  class="navbar sticky-top navbar-expand-lg bg-body-tertiary text-center"
   data-bs-theme="dark"
 >
   <div class="container-fluid">
-    <a class="navbar-brand ms-4" href="#"><img src="/img/logo1.jpg" class="rounded" alt="Logo" width="80" height="48"></a>
+    <a class="navbar-brand ms-4" routerLink="#"><img src="/img/logo1.jpg" class="rounded" alt="Logo" width="80" height="48" id="logo"></a>
+    <a class="navbar-brand ms-4" href="#"
+      ><img
+        src="/img/logo1.jpg"
+        class="rounded"
+        alt="Logo"
+        width="80"
+        height="48"
+    /></a>
     <button
       class="navbar-toggler"
       type="button"
@@ -24,7 +32,10 @@
           <a class="nav-link" routerLink="/alu-directory">Directory</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/events-details">Events-Details</a>
+          <a class="nav-link" routerLink="/events-details">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/news-details">News</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="/stories">Stories</a>

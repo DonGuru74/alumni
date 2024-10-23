@@ -39,14 +39,19 @@ header p {
   border-radius: 25px;
   font-size: 1rem;
   outline: none;
-  color: #333;  /* Ensure text color is visible */
-  background-color: #fff;  /* Background color for the input */
+  color: #333;  /* Explicitly set the text color to dark */
+  background-color: #fff;  /* Set background color to white */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.2s ease;
 }
 
+.search-bar input::placeholder {
+  color: #aaa;  /* Set placeholder color to distinguish it from text */
+}
+
 .search-bar input:focus {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  border-color: #0056b3;  /* Change border color on focus */
 }
 
 /* Job list styling */

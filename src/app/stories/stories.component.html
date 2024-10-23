@@ -1,13 +1,13 @@
 <div class="stories-page ">
   <header>
-    <h1>Alumni Success Stories</h1>
-    <p class="fs-1 ">
+    <h1 class=" animate__animated animate__pulse">Alumni Success Stories</h1>
+    <p class="fs-1 animate__animated animate__pulse">
       Discover the inspiring journeys of our successful alumni and their
       achievements in various fields.
     </p>
   </header>
 
-  <div class="stories-list">
+  <div class="stories-list animate__animated animate__zoomIn">
     <div *ngFor="let story of stories" class="story-item">
       <img [src]="story.image" alt="{{ story.title }}" class="story-image" />
       <div class="story-content">
@@ -18,6 +18,6 @@
   </div>
 
   <footer>
-    <p>Contact us for more success stories: alumni&#64;example.com</p>
+    <p class=" animate__animated animate__pulse">Contact us for more success stories: alumni&#64;example.com</p>
   </footer>
 </div>
